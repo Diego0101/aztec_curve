@@ -45,7 +45,7 @@ def aztec(data):
 # Example usage
 #data = np.random.randint(0, 10, (16, 16))
 data = np.r_[0:256]
-outputData, aztecInd = aztec(np.r_[0:256])
+outputData, aztecInd = aztec(data)
 print("Input data:") , print(data)
 print("Output data:") , print(outputData)
 #print("Aztec indices:"), print(aztecInd)
