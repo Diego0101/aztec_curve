@@ -8,7 +8,7 @@
 # Author(s): Diego Ayala (https://github.com/Diego0101)
 # Paper: https://www.researchgate.net/publication/362386088_Aztec_curve_proposal_for_a_new_space-filling_curve
 # Most of algorithm from: https://arxiv.org/abs/2207.14345v1
-
+# Published in Github through GNU GENERAL PUBLIC LICENSE
 import numpy as np
 import matplotlib.pyplot as plt
 def aztec(data):
@@ -51,5 +51,4 @@ print("Output data:") , print(outputData)
 #print("Aztec indices:"), print(aztecInd)
 plt.show() 
 
-
-
+# Copyright (c) 2019-2099 Diego Ayala
